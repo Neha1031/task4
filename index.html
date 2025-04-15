@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    .about-me p,
+    .skills ul,
+    .projects ul {
+      margin-top: 15px;
+    }
+
+    .skills ul,
+    .projects ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="image/Neha.png" alt="my Photo" />
+    <h1>Hi, I'm Neha Kumari</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about-me">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer. I am doing BCA and have worked on various frontend and backend projects.</p>
+    <p>My mission is to build user-friendly, responsive, and accessible websites that create impact and solve real-world problems.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python Programming</li>
+      <li>Git, GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project 1:</strong> A responsive landing page built with HTML & CSS.</li>
+      <li><strong>Project 2:</strong> A To-Do-List</li>
+      <li><strong>Project 3:</strong> A simple calculator</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: nehakumari53723@gmail.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/Nehakumari</a></p>
+    <p>GitHub: <a href="#">github.com/Neha1031</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Neha Kumari • Portfolio</p>
+  </footer>
+
+</body>
+</html>
